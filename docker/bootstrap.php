@@ -56,7 +56,7 @@ $CONFIG = array(
   'php.max_input_time'      => getenv_default('ATOM_PHP_MAX_INPUT_TIME', '120'),
   'php.memory_limit'        => getenv_default('ATOM_PHP_MEMORY_LIMIT', '512M'),
   'php.post_max_size'       => getenv_default('ATOM_PHP_POST_MAX_SIZE', '72M'),
-  'php.upload_max_filesize' => getenv_default('ATOM_PHP_UPLOAD_MAX_FILESIZE', '64M'),
+  'php.upload_max_filesize' => getenv_default('ATOM_PHP_UPLOAD_MAX_FILESIZE', '128M'),
   'php.max_file_uploads'    => getenv_default('ATOM_PHP_MAX_FILE_UPLOADS', '20'),
   'php.date.timezone'       => getenv_default('ATOM_PHP_DATE_TIMEZONE', 'America/Vancouver')
 );
